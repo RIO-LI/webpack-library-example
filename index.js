@@ -9,6 +9,9 @@ function createTransalator() {
         wordtonum: (word) => {
             const num = converttonum(word);
             return num === -1 ? 'This is a failure' : num;
+        },
+        hello: () => {
+            return 'Hello World!';
         }
     };
 }

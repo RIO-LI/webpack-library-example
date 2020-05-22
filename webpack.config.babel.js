@@ -9,7 +9,6 @@ export default () => (
             filename: 'webpack-numbers.js',
             libraryTarget: 'umd',
             globalObject: 'this',
-            // libraryExport: 'default',
             library: 'webpackNumbers'
         },
         externals: {
